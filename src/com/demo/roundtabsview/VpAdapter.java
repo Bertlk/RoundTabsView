@@ -42,7 +42,6 @@ public class VpAdapter extends PagerAdapter {
 	@Override
 	public void destroyItem(ViewGroup container, int position, Object object) {
 		// TODO Auto-generated method stub
-//		System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@  position : " + getActuallyPosition(position));
 		
 		container.removeView(showViewsList.get(position));
 		removeViewsList.add(showViewsList.get(position));
